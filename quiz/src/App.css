@@ -1,0 +1,10 @@
+/* *{
+  margin: 0;
+  padding: 0;
+} */
+.display,.btn{
+  display: none;
+}
+.show{
+  display: inline;
+}

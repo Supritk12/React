@@ -1,0 +1,48 @@
+body{
+  background-color: pink;
+  margin: 0;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+.return{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box{
+  height: 300px;
+  width: 400px;
+  box-shadow: 0 0 5px 5px rgb(251, 212, 212);
+  background-color: plum;
+}
+#head{
+  color: whitesmoke;
+  text-shadow: 0 0 5px black;
+  font-family: 'Times New Roman', Times, serif;
+}
+.btn{
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  justify-content: center;
+}
+.btn-dec{
+  padding: 10px 12px;
+  border: none;
+  border-radius: 10px;
+}
+.btn-dec:hover{
+  background-color: pink;
+  border: none;
+}
+p{
+  color: darkblue;
+  
+  font-weight: bolder;
+  margin-top: 30px;
+  font-size: 60px;
+  font-family: cursive;
+}
