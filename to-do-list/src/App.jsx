@@ -2,7 +2,7 @@ import React, { useState } from "react";
 const App = () => {
   const [arr, setTask] = useState([]);
   const [val, setVal] = useState("");
-  const [lab, state] = useState(false);
+ // const [lab, state] = useState(false);
   function save() {
     if (val.trim() === "") {
       window.alert("Enter a task before saving!");
